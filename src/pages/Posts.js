@@ -1,8 +1,9 @@
 import React from 'react';
 import {Post} from 'pages';
-import {Link, Route} from 'redux-router-dom';
+import {Link, Route} from 'react-router-dom';
 
 const Posts = ({match}) => {
+  console.log('Posts', match);
   return (
     <div>
       <h3>포스트목록</h3>
